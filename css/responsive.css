@@ -673,7 +673,7 @@
 
 @media(max-width: 812px) {
 
- .text-content p{
-   font-size: 2rem;
-  }
+.swiper-slide .text-content p {
+    font-size: 0.8em;
+}
 }
