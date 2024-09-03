@@ -75,7 +75,7 @@
   }
 
   .swiper-slide .text-content p {
-    font-size: 0.9em;
+    font-size: 0.8em;
   }
 
   .nav-menu-btn {
@@ -670,10 +670,3 @@
  
  }
 
-
-@media(max-width: 812px) {
-
-.swiper-slide .text-content p {
-    font-size: 0.8em;
-}
-}
