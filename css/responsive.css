@@ -359,6 +359,9 @@
 
 @media(max-width: 412px) {
 
+  .members .container .card .imgbx {
+    left: 45px;
+    right: 50px
 
   .SobNTi {
     display: flex;
