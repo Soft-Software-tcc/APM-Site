@@ -250,12 +250,24 @@
     color: var(--cor-destaque);
   }
 
-  .container .card .imgbx {
+  .container .card .imgbx1 {
     position: absolute;
     top: 30px;
     width: 100px;
     height: 100px;
-    left: 57px;
+    left: 55px;
+    border-radius: 220px;
+    transition: 0.5s;
+    overflow: hidden;
+    border: 4px solid #000000;
+  }
+
+  .container .card .imgbx2 {
+    position: absolute;
+    top: 30px;
+    width: 100px;
+    height: 100px;
+    left: 60px;
     border-radius: 220px;
     transition: 0.5s;
     overflow: hidden;
