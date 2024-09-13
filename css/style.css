@@ -482,7 +482,7 @@ header .nav-bar {
   height: 400px;
 }
 
- .card .imgbx {
+ .card .imgbx1 {
   position: absolute;
   top: 30px;
   width: 150px;
@@ -494,19 +494,48 @@ header .nav-bar {
   border: 4px solid #0468ff;
 }
 
-.container .card:hover .imgbx {
+.container .card:hover .imgbx1 {
   top: -100px;
   scale: 0.75;
   box-shadow: 0 15px 45px black;
 }
 
-.container .card .imgbx img {
+.container .card .imgbx1 img {
   position: absolute;
   top: 0;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
+
+
+ .card .imgbx2 {
+  position: absolute;
+  top: 30px;
+  width: 150px;
+  height: 150px;
+  left: 60px;
+  border-radius: 220px;
+  transition: 0.5s;
+  overflow: hidden;
+  border: 4px solid #0468ff;
+}
+
+.container .card:hover .imgbx2 {
+  top: -100px;
+  scale: 0.75;
+  box-shadow: 0 15px 45px black;
+}
+
+.container .card .imgbx2 img {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 
 .container .card .content {
 
